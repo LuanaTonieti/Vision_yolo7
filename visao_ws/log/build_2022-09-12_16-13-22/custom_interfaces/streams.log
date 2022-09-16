@@ -1,0 +1,230 @@
+[0.101s] Invoking command in '/home/robofei/Desktop/visao_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robofei/Desktop/visao_ws/install/vision_test:/opt/ros/foxy /usr/bin/cmake --build /home/robofei/Desktop/visao_ws/build/custom_interfaces -- -j4 -l4
+[0.792s] [  0%] Built target custom_interfaces__cpp
+[1.042s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[1.138s] [ 24%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[1.228s] [ 36%] Built target custom_interfaces__rosidl_typesupport_cpp
+[1.270s] [ 47%] Built target custom_interfaces__rosidl_typesupport_c
+[1.487s] [ 59%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[1.545s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.725s] [ 82%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[1.835s] [ 82%] Built target custom_interfaces
+[1.922s] [ 83%] Built target custom_interfaces__py
+[2.049s] [ 94%] Built target custom_interfaces__python
+[2.375s] [ 96%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.376s] [ 98%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[2.376s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.395s] Invoked command in '/home/robofei/Desktop/visao_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robofei/Desktop/visao_ws/install/vision_test:/opt/ros/foxy /usr/bin/cmake --build /home/robofei/Desktop/visao_ws/build/custom_interfaces -- -j4 -l4
+[2.766s] Invoking command in '/home/robofei/Desktop/visao_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robofei/Desktop/visao_ws/install/vision_test:/opt/ros/foxy /usr/bin/cmake --install /home/robofei/Desktop/visao_ws/build/custom_interfaces
+[2.804s] -- Install configuration: ""
+[2.833s] -- Execute custom install script
+[2.866s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[2.873s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/decision.h
+[2.874s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/decision__functions.h
+[2.875s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/decision__struct.h
+[2.875s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/decision__type_support.h
+[2.876s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/humanoid_league_msgs__functions.h
+[2.876s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/humanoid_league_msgs__struct.h
+[2.877s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/humanoid_league_msgs__type_support.h
+[2.877s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/localization__functions.h
+[2.878s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/localization__struct.h
+[2.878s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/localization__type_support.h
+[2.879s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/param_walk__functions.h
+[2.879s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/param_walk__struct.h
+[2.880s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/param_walk__type_support.h
+[2.881s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position__functions.h
+[2.881s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position__struct.h
+[2.882s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position__type_support.h
+[2.882s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position_original__functions.h
+[2.883s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position_original__struct.h
+[2.907s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position_original__type_support.h
+[2.908s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/vision__functions.h
+[2.908s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/vision__struct.h
+[2.909s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/vision__type_support.h
+[2.909s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/walk__functions.h
+[2.909s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/walk__struct.h
+[2.910s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/walk__type_support.h
+[2.911s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/humanoid_league_msgs.h
+[2.911s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/localization.h
+[2.912s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/param_walk.h
+[2.913s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.913s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/set_position.h
+[2.927s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/set_position_original.h
+[2.927s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/vision.h
+[2.929s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/walk.h
+[2.929s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/get_position__functions.h
+[2.930s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/get_position__struct.h
+[2.930s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/get_position__type_support.h
+[2.930s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/reset__functions.h
+[2.931s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/reset__struct.h
+[2.931s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/reset__type_support.h
+[2.932s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/get_position.h
+[2.932s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/reset.h
+[2.933s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[2.934s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[2.936s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/decision__rosidl_typesupport_fastrtps_c.h
+[2.936s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/humanoid_league_msgs__rosidl_typesupport_fastrtps_c.h
+[2.937s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/localization__rosidl_typesupport_fastrtps_c.h
+[2.937s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/param_walk__rosidl_typesupport_fastrtps_c.h
+[2.938s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[2.938s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position_original__rosidl_typesupport_fastrtps_c.h
+[2.939s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/vision__rosidl_typesupport_fastrtps_c.h
+[2.939s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/walk__rosidl_typesupport_fastrtps_c.h
+[2.940s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.940s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[2.941s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/reset__rosidl_typesupport_fastrtps_c.h
+[2.974s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.976s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/decision__rosidl_typesupport_fastrtps_cpp.hpp
+[2.976s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/humanoid_league_msgs__rosidl_typesupport_fastrtps_cpp.hpp
+[2.995s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/localization__rosidl_typesupport_fastrtps_cpp.hpp
+[2.996s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/param_walk__rosidl_typesupport_fastrtps_cpp.hpp
+[2.996s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.997s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position_original__rosidl_typesupport_fastrtps_cpp.hpp
+[2.997s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/vision__rosidl_typesupport_fastrtps_cpp.hpp
+[2.998s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/walk__rosidl_typesupport_fastrtps_cpp.hpp
+[2.998s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.999s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.999s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp
+[3.014s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.015s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/decision__rosidl_typesupport_introspection_c.h
+[3.015s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/humanoid_league_msgs__rosidl_typesupport_introspection_c.h
+[3.016s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/localization__rosidl_typesupport_introspection_c.h
+[3.016s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/param_walk__rosidl_typesupport_introspection_c.h
+[3.017s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[3.017s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position_original__rosidl_typesupport_introspection_c.h
+[3.018s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/vision__rosidl_typesupport_introspection_c.h
+[3.018s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/walk__rosidl_typesupport_introspection_c.h
+[3.019s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.019s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[3.020s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/reset__rosidl_typesupport_introspection_c.h
+[3.021s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/decision.hpp
+[3.022s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/decision__builder.hpp
+[3.022s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/decision__struct.hpp
+[3.023s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/decision__traits.hpp
+[3.023s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/humanoid_league_msgs__builder.hpp
+[3.024s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/humanoid_league_msgs__struct.hpp
+[3.024s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/humanoid_league_msgs__traits.hpp
+[3.025s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/localization__builder.hpp
+[3.025s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/localization__struct.hpp
+[3.026s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/localization__traits.hpp
+[3.026s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/param_walk__builder.hpp
+[3.027s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/param_walk__struct.hpp
+[3.027s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/param_walk__traits.hpp
+[3.028s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position__builder.hpp
+[3.028s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position__struct.hpp
+[3.029s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position__traits.hpp
+[3.029s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position_original__builder.hpp
+[3.030s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position_original__struct.hpp
+[3.031s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position_original__traits.hpp
+[3.031s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/vision__builder.hpp
+[3.032s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/vision__struct.hpp
+[3.032s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/vision__traits.hpp
+[3.033s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/walk__builder.hpp
+[3.035s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/walk__struct.hpp
+[3.035s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/walk__traits.hpp
+[3.036s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/humanoid_league_msgs.hpp
+[3.036s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/localization.hpp
+[3.037s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/param_walk.hpp
+[3.038s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/set_position.hpp
+[3.038s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/set_position_original.hpp
+[3.039s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/vision.hpp
+[3.039s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/walk.hpp
+[3.040s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/get_position__builder.hpp
+[3.040s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/get_position__struct.hpp
+[3.041s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/get_position__traits.hpp
+[3.041s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/reset__builder.hpp
+[3.042s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/reset__struct.hpp
+[3.043s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/reset__traits.hpp
+[3.043s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/get_position.hpp
+[3.043s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/reset.hpp
+[3.045s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/decision__rosidl_typesupport_introspection_cpp.hpp
+[3.045s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/humanoid_league_msgs__rosidl_typesupport_introspection_cpp.hpp
+[3.046s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/localization__rosidl_typesupport_introspection_cpp.hpp
+[3.066s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/param_walk__rosidl_typesupport_introspection_cpp.hpp
+[3.067s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[3.067s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/set_position_original__rosidl_typesupport_introspection_cpp.hpp
+[3.068s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/vision__rosidl_typesupport_introspection_cpp.hpp
+[3.069s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/walk__rosidl_typesupport_introspection_cpp.hpp
+[3.069s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[3.070s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp
+[3.071s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[3.071s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[3.072s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py
+[3.073s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/__init__.py
+[3.074s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_decision.py
+[3.074s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_humanoid_league_msgs.py
+[3.075s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_localization.py
+[3.075s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_param_walk.py
+[3.075s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_set_position.py
+[3.076s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_set_position_original.py
+[3.076s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_vision.py
+[3.077s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_walk.py
+[3.078s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/__init__.py
+[3.079s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_get_position.py
+[3.079s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_reset.py
+[3.104s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.116s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.127s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.137s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/libcustom_interfaces__python.so
+[3.138s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/SetPosition.idl
+[3.139s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/Vision.idl
+[3.140s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/HumanoidLeagueMsgs.idl
+[3.140s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/Localization.idl
+[3.141s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/SetPositionOriginal.idl
+[3.142s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/Decision.idl
+[3.165s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/Walk.idl
+[3.165s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/ParamWalk.idl
+[3.166s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/srv/GetPosition.idl
+[3.167s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/srv/Reset.idl
+[3.168s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/SetPosition.msg
+[3.168s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/Vision.msg
+[3.169s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/HumanoidLeagueMsgs.msg
+[3.170s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/Localization.msg
+[3.170s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/SetPositionOriginal.msg
+[3.171s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/Decision.msg
+[3.172s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/Walk.msg
+[3.172s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/msg/ParamWalk.msg
+[3.173s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/srv/GetPosition.srv
+[3.174s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/srv/GetPosition_Request.msg
+[3.187s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/srv/GetPosition_Response.msg
+[3.188s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/srv/Reset.srv
+[3.189s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/srv/Reset_Request.msg
+[3.189s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/srv/Reset_Response.msg
+[3.190s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[3.191s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[3.191s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[3.192s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[3.193s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[3.193s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[3.194s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[3.195s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[3.195s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[3.196s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[3.196s] -- Symlinking: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[3.221s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[3.222s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.223s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.223s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.224s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.225s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.226s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.226s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.227s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[3.227s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[3.228s] -- Up-to-date symlink: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[3.245s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[3.256s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[3.256s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[3.274s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.288s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[3.385s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake
+[3.385s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.386s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.386s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.386s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[3.387s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.393s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake
+[3.394s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.394s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.403s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[3.403s] -- Up-to-date: /home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.414s] Invoked command in '/home/robofei/Desktop/visao_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robofei/Desktop/visao_ws/install/vision_test:/opt/ros/foxy /usr/bin/cmake --install /home/robofei/Desktop/visao_ws/build/custom_interfaces

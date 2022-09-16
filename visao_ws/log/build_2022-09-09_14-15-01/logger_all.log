@@ -1,0 +1,199 @@
+[0.168s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.168s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb21355e0a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb21355e0a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb21355e550>)
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.200s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robofei/Desktop/visao_ws'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(vision_test) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(vision_test) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(vision_test) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(vision_test) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(vision_test) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(vision_test) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(vision_test) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(vision_test) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(vision_test) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'vision_test' with type 'ros.ament_python' and name 'vision_test'
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.256s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robofei/Desktop/visao_ws/install
+[0.258s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/foxy
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofei/Desktop/visao_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofei/Desktop/visao_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/robofei/Desktop/visao_ws/custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'vision_test' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'vision_test' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'vision_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'vision_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'vision_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'vision_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'vision_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'vision_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'vision_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'vision_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofei/Desktop/visao_ws/build/vision_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofei/Desktop/visao_ws/install/vision_test', 'merge_install': False, 'path': '/home/robofei/Desktop/visao_ws/vision_test', 'symlink_install': True, 'test_result_base': None}
+[0.354s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.359s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robofei/Desktop/visao_ws/custom_interfaces' with build type 'ament_cmake'
+[0.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robofei/Desktop/visao_ws/custom_interfaces'
+[0.365s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robofei/Desktop/visao_ws/vision_test' with build type 'ament_python'
+[0.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_test', 'ament_prefix_path')
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/vision_test/share/vision_test/hook/ament_prefix_path.ps1'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofei/Desktop/visao_ws/install/vision_test/share/vision_test/hook/ament_prefix_path.dsv'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/vision_test/share/vision_test/hook/ament_prefix_path.sh'
+[0.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.383s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofei/Desktop/visao_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/robofei/Desktop/visao_ws/install/vision_test:/opt/ros/foxy /usr/bin/cmake /home/robofei/Desktop/visao_ws/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofei/Desktop/visao_ws/install/custom_interfaces
+[0.784s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robofei/Desktop/visao_ws/vision_test'
+[0.787s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.787s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofei/Desktop/visao_ws/build/vision_test': PYTHONPATH=/home/robofei/Desktop/visao_ws/install/vision_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/robofei/Desktop/visao_ws/install/vision_test --editable --build-directory /home/robofei/Desktop/visao_ws/build/vision_test/build --no-deps install_data --install-dir /home/robofei/Desktop/visao_ws/install/vision_test
+[2.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_test', 'pythonpath_develop')
+[2.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/build/vision_test/share/vision_test/hook/pythonpath_develop.ps1'
+[2.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofei/Desktop/visao_ws/build/vision_test' returned '0': PYTHONPATH=/home/robofei/Desktop/visao_ws/install/vision_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/robofei/Desktop/visao_ws/install/vision_test --editable --build-directory /home/robofei/Desktop/visao_ws/build/vision_test/build --no-deps install_data --install-dir /home/robofei/Desktop/visao_ws/install/vision_test
+[2.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofei/Desktop/visao_ws/build/vision_test/share/vision_test/hook/pythonpath_develop.dsv'
+[2.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/build/vision_test/share/vision_test/hook/pythonpath_develop.sh'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/vision_test' for CMake module files
+[2.166s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/vision_test' for CMake config files
+[2.167s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/vision_test/lib'
+[2.167s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/vision_test/bin'
+[2.167s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/vision_test/lib/pkgconfig/vision_test.pc'
+[2.168s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/vision_test/lib/python3.8/site-packages'
+[2.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_test', 'pythonpath')
+[2.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/vision_test/share/vision_test/hook/pythonpath.ps1'
+[2.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofei/Desktop/visao_ws/install/vision_test/share/vision_test/hook/pythonpath.dsv'
+[2.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/vision_test/share/vision_test/hook/pythonpath.sh'
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/vision_test/bin'
+[2.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_test)
+[2.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/vision_test/share/vision_test/package.ps1'
+[2.437s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robofei/Desktop/visao_ws/install/vision_test/share/vision_test/package.dsv'
+[2.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/vision_test/share/vision_test/package.sh'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/vision_test/share/vision_test/package.bash'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/vision_test/share/vision_test/package.zsh'
+[2.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robofei/Desktop/visao_ws/install/vision_test/share/colcon-core/packages/vision_test)
+[11.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofei/Desktop/visao_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/robofei/Desktop/visao_ws/install/vision_test:/opt/ros/foxy /usr/bin/cmake /home/robofei/Desktop/visao_ws/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofei/Desktop/visao_ws/install/custom_interfaces
+[11.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofei/Desktop/visao_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/robofei/Desktop/visao_ws/install/vision_test:/opt/ros/foxy /usr/bin/cmake --build /home/robofei/Desktop/visao_ws/build/custom_interfaces -- -j4 -l4
+[35.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofei/Desktop/visao_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/robofei/Desktop/visao_ws/install/vision_test:/opt/ros/foxy /usr/bin/cmake --build /home/robofei/Desktop/visao_ws/build/custom_interfaces -- -j4 -l4
+[35.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofei/Desktop/visao_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/robofei/Desktop/visao_ws/install/vision_test:/opt/ros/foxy /usr/bin/cmake --install /home/robofei/Desktop/visao_ws/build/custom_interfaces
+[38.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[38.325s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces' for CMake module files
+[38.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofei/Desktop/visao_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/robofei/Desktop/visao_ws/install/vision_test:/opt/ros/foxy /usr/bin/cmake --install /home/robofei/Desktop/visao_ws/build/custom_interfaces
+[38.327s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces' for CMake config files
+[38.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[38.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[38.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[38.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[38.334s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces/lib'
+[38.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[38.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[38.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[38.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[38.336s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces/bin'
+[38.337s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[38.337s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages'
+[38.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[38.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[38.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[38.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[38.340s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces/bin'
+[38.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[38.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[38.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[38.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[38.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[38.344s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[38.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[38.608s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces' for CMake module files
+[38.609s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces' for CMake config files
+[38.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[38.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[38.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[38.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[38.619s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces/lib'
+[38.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[38.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[38.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[38.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[38.624s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces/bin'
+[38.624s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[38.625s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces/lib/python3.8/site-packages'
+[38.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[38.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[38.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[38.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[38.629s] Level 1:colcon.colcon_core.environment:checking '/home/robofei/Desktop/visao_ws/install/custom_interfaces/bin'
+[38.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[38.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[38.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[38.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[38.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[38.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robofei/Desktop/visao_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[38.638s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[38.639s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[38.639s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[38.639s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[38.648s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[38.649s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[38.649s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[38.674s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[38.678s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robofei/Desktop/visao_ws/install/local_setup.ps1'
+[38.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robofei/Desktop/visao_ws/install/_local_setup_util_ps1.py'
+[38.683s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robofei/Desktop/visao_ws/install/setup.ps1'
+[38.686s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robofei/Desktop/visao_ws/install/local_setup.sh'
+[38.688s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robofei/Desktop/visao_ws/install/_local_setup_util_sh.py'
+[38.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robofei/Desktop/visao_ws/install/setup.sh'
+[38.692s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robofei/Desktop/visao_ws/install/local_setup.bash'
+[38.693s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robofei/Desktop/visao_ws/install/setup.bash'
+[38.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robofei/Desktop/visao_ws/install/local_setup.zsh'
+[38.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robofei/Desktop/visao_ws/install/setup.zsh'

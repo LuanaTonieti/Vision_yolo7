@@ -1,0 +1,17 @@
+[1.368s] Invoking command in '/home/robofei/Desktop/visao_ws/build/vision_test': PYTHONPATH=/home/robofei/Desktop/visao_ws/install/vision_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/robofei/Desktop/visao_ws/install/vision_test --editable --build-directory /home/robofei/Desktop/visao_ws/build/vision_test/build --no-deps install_data --install-dir /home/robofei/Desktop/visao_ws/install/vision_test
+[1.720s] running develop
+[2.054s] running egg_info
+[2.054s] writing vision_test.egg-info/PKG-INFO
+[2.055s] writing dependency_links to vision_test.egg-info/dependency_links.txt
+[2.055s] writing entry points to vision_test.egg-info/entry_points.txt
+[2.055s] writing requirements to vision_test.egg-info/requires.txt
+[2.055s] writing top-level names to vision_test.egg-info/top_level.txt
+[2.094s] reading manifest file 'vision_test.egg-info/SOURCES.txt'
+[2.136s] writing manifest file 'vision_test.egg-info/SOURCES.txt'
+[2.201s] running build_ext
+[2.201s] Creating /home/robofei/Desktop/visao_ws/install/vision_test/lib/python3.8/site-packages/vision-test.egg-link (link to .)
+[2.203s] Installing detect script to /home/robofei/Desktop/visao_ws/install/vision_test/lib/vision_test
+[2.204s] 
+[2.204s] Installed /home/robofei/Desktop/visao_ws/build/vision_test
+[2.204s] running install_data
+[2.253s] Invoked command in '/home/robofei/Desktop/visao_ws/build/vision_test' returned '0': PYTHONPATH=/home/robofei/Desktop/visao_ws/install/vision_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/robofei/Desktop/visao_ws/install/vision_test --editable --build-directory /home/robofei/Desktop/visao_ws/build/vision_test/build --no-deps install_data --install-dir /home/robofei/Desktop/visao_ws/install/vision_test

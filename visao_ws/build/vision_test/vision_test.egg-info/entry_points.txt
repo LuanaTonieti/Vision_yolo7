@@ -1,0 +1,3 @@
+[console_scripts]
+detect = vision_test.detect:main
+

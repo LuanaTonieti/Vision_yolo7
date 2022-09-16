@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing vision_test.egg-info/PKG-INFO
+writing dependency_links to vision_test.egg-info/dependency_links.txt
+writing entry points to vision_test.egg-info/entry_points.txt
+writing requirements to vision_test.egg-info/requires.txt
+writing top-level names to vision_test.egg-info/top_level.txt
+reading manifest file 'vision_test.egg-info/SOURCES.txt'
+writing manifest file 'vision_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robofei/Desktop/visao_ws/install/vision_test/lib/python3.8/site-packages/vision-test.egg-link (link to .)
+Installing detect script to /home/robofei/Desktop/visao_ws/install/vision_test/lib/vision_test
+
+Installed /home/robofei/Desktop/visao_ws/build/vision_test
+running install_data
